@@ -40,5 +40,5 @@ steps:
 preconditions:
 create yellow screen widget instance
 steps:
-1. the "random number" button should be displayed, the screen background yellow, and the "back" button should be displayed
-2. click on the "random number" button and check that the number between 0 and 49 is displayed in blue
+1. The "random number" button should be displayed, the screen background yellow, and the "back" button should be displayed
+2. Click on the "random number" button and check that the number between 0 and 49 is displayed in blue
