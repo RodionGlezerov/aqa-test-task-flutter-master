@@ -21,12 +21,12 @@
 2. тапнуть по кнопке “случайное число” и проверить, что число от 0 до 49 отображается синим цветом
 
 
-Test Assignment
+# Test Task
 
 You need to implement E2E and Widget tests for this application according to the test cases described below.
 For E2E test provide several different widget search options - byKey, byWidgetPredicate, byType, etc.
 
-E2E test (required)
+## E2E test
 prerequisites:
 user is on the start screen and sees two buttons "green", "yellow"
 steps:
@@ -36,7 +36,7 @@ steps:
 4. tap the button "random number" - the inscription with the number from 0 to 99 in the center of the screen is displayed
 5. tap the back button - should go back to the start screen
 
-Widget test (will be a plus)
+## Widget test
 preconditions:
 create yellow screen widget instance
 steps:
