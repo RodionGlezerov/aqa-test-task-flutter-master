@@ -19,3 +19,26 @@
 <b>steps:</b>
 1. должна отображаться кнопка “случайное число”, фон экрана желтый, а также должна отображаться кнопка “назад”
 2. тапнуть по кнопке “случайное число” и проверить, что число от 0 до 49 отображается синим цветом
+
+
+Test Assignment
+
+You need to implement E2E and Widget tests for this application according to the test cases described below.
+For E2E test provide several different widget search options - byKey, byWidgetPredicate, byType, etc.
+
+E2E test (required)
+prerequisites:
+user is on the start screen and sees two buttons "green", "yellow"
+steps:
+1. Tap on the "green" button to bring up a screen with a white "green screen" caption and a green background
+2. Tap the back button to return to the start screen.
+3. tap on "yellow" - a screen with a "random number" button should open, the text in the middle of the screen is not displayed
+4. tap the button "random number" - the inscription with the number from 0 to 99 in the center of the screen is displayed
+5. tap the back button - should go back to the start screen
+
+Widget test (will be a plus)
+preconditions:
+create yellow screen widget instance
+steps:
+1. the "random number" button should be displayed, the screen background yellow, and the "back" button should be displayed
+2. click on the "random number" button and check that the number between 0 and 49 is displayed in blue
